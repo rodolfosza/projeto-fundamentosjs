@@ -40,8 +40,6 @@ class GameScreen{
     }
 
     static generateStringHtmlforImg(itens){
-        //cada item -> getCodHTML
-        //ao final vai juntar todos itens
         return itens.map(GameScreen.GetCodHtml).join('')
     }
 

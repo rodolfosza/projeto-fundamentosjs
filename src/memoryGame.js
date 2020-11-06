@@ -4,16 +4,14 @@ class MemoryGame{
         this.util = util
 
         this.startsElements = [
-            {img: '../files/mountain.png', name: 'mountain'},
-            {img: '../files/grass.png', name: 'grass'},
-            {img: '../files/river.png', name: 'river'},
-            {img: '../files/waterfall.png', name: 'waterfall'},
+            {img: './files/mountain.png', name: 'mountain'},
+            {img: './files/grass.png', name: 'grass'},
+            {img: './files/river.png', name: 'river'},
+            {img: './files/waterfall.png', name: 'waterfall'},
         ]
-
-        this.defaultIcon = '../files/default.png'
+        this.defaultIcon = './files/default.png'
         this.hideElements = []
         this.selectedElements = []
-
     }
 
     initialize(){
@@ -62,7 +60,6 @@ class MemoryGame{
                 this.selectedElements.push(item)
                 break;
             case 1:
-                //primeiro item do array
                 const [ option1 ] = this.selectedElements
                 this.selectedElements = []
                 if(option1.name === item.name && option1.id !== item.id){
