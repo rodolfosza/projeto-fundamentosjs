@@ -1,3 +1,3 @@
 ## Projeto memory game
 
-Prática de conceitos e fundamentos em javascript
+_Prática de conceitos e fundamentos em javascript
