@@ -1,5 +1,4 @@
 function onLoad(){
-    //console.log(`screen loaded.. `, GameScreen, MemoryGame)
     const dependencies = {
         screen: GameScreen,
         util: Util
