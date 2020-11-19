@@ -19,4 +19,3 @@
 ## Contributing
 
 Pull requests, tips, advices are welcome. Thanks.
-Prática de conceitos e fundamentos em javascript
